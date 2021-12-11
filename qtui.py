@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'qtui.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(410, 420, 331, 101))
+        self.pushButton.setObjectName("pushButton")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(40, 30, 181, 41))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(420, 40, 111, 31))
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(130, 400, 92, 112))
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(480, 170, 184, 224))
+        self.label_4.setObjectName("label_4")
+        self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit.setGeometry(QtCore.QRect(40, 80, 261, 61))
+        self.textEdit.setObjectName("textEdit")
+        self.textEdit_2 = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_2.setGeometry(QtCore.QRect(40, 180, 101, 51))
+        self.textEdit_2.setObjectName("textEdit_2")
+        self.label_5 = QtWidgets.QLabel(self.centralwidget)
+        self.label_5.setGeometry(QtCore.QRect(40, 160, 72, 15))
+        self.label_5.setObjectName("label_5")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(320, 80, 81, 61))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setGeometry(QtCore.QRect(40, 270, 331, 41))
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(self.centralwidget)
+        self.label_7.setGeometry(QtCore.QRect(150, 160, 72, 15))
+        self.label_7.setObjectName("label_7")
+        self.textEdit_3 = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_3.setGeometry(QtCore.QRect(40, 310, 261, 61))
+        self.textEdit_3.setObjectName("textEdit_3")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(320, 310, 81, 61))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(320, 180, 81, 51))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.textEdit_4 = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_4.setGeometry(QtCore.QRect(153, 180, 151, 51))
+        self.textEdit_4.setObjectName("textEdit_4")
+        self.textEdit_5 = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_5.setGeometry(QtCore.QRect(420, 80, 311, 61))
+        self.textEdit_5.setObjectName("textEdit_5")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.pushButton.setText(_translate("MainWindow", "检索"))
+        self.label.setText(_translate("MainWindow", "训练图像目录："))
+        self.label_2.setText(_translate("MainWindow", "预测结果:"))
+        self.label_3.setText(_translate("MainWindow", "测试图片"))
+        self.label_4.setText(_translate("MainWindow", "预测图片"))
+        self.label_5.setText(_translate("MainWindow", "维度："))
+        self.pushButton_2.setText(_translate("MainWindow", "浏览目录"))
+        self.label_6.setText(_translate("MainWindow", "测试照片地址:"))
+        self.label_7.setText(_translate("MainWindow", "状态："))
+        self.pushButton_3.setText(_translate("MainWindow", "浏览照片"))
+        self.pushButton_4.setText(_translate("MainWindow", "PCA降维"))
+
